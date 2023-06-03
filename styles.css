@@ -1,0 +1,174 @@
+@import url('https://fonts.cdnfonts.com/css/gentium-book-basic');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.header {
+    background-image: url("assets/Rectangle\ 30.svg");
+    background-size: cover;
+    height: 700px;
+    margin: auto;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header ul li a {
+    font-family: "Gentium Book Basic";
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.logoheader {
+    width: 98.48px;
+}
+
+.logofooter {
+    width: 98.48px;
+}
+
+.introtext {
+    display: flex;
+    justify-content: center;
+    padding-top: 287px;
+}
+
+.header h2 {
+    font-size: 40px;
+    font-family: "Gentium Book Basic";
+    width: 1046px;
+    text-align: center;
+    color: #C0B4B4;
+}
+
+.menu {
+    width: 536px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar {
+    height: 217px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.lastAr {
+    background-color: #2A2626;
+
+}
+
+.lastAr p {
+    text-align: center;
+    font-family: "Gentium Book Basic";
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+    padding-top: 96px;
+    padding-bottom: 42px;
+
+}
+
+.picsArticles {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 96px;
+
+}
+
+.picsArticles img:hover {
+    box-shadow: 0 24px 12px -2px #0b0101;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Gentium Book Basic";
+    width: 1046px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about {
+    background-color: #0B0A0A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutText {
+    color: #FFFFFF;
+    width: 565px;
+    height: 320px;
+    background: #8E8B8B;
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 96px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.about-content p {
+    width: 347px;
+    padding-top: 64px;
+    font-family: "Gentium Book Basic";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20.83px;
+    text-align: justify;
+}
+
+.about h1 {
+    margin: 0;
+    padding-top: 96px;
+    padding-bottom: 42px;
+}
+
+.footer {
+    background-color: #2A2626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    max-width: 1440px;
+    margin: auto;
+    width: 100%;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    justify-content: space-between;
+}
