@@ -4,6 +4,7 @@
 <head>
     <title>Desktop - home page</title>
     <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 </head>
 
 <body>
@@ -17,6 +18,15 @@
                         <li><a href="#">Articles</a></li>
                         <li><a href="#">Subscribe</a></li>
                     </ul>
+                    <img src="assets/menuIcon.svg" onclick="showMenu()">
+                    <div class="mobile-menu" id="mobile-menu">
+                        <img class="mobile-menu-icon" src="assets/menuIcon.svg" onclick="hideMenu()">
+                        <ul class="mobile-menu-ul">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Articles</a></li>
+                            <li><a href="#">Subscribe</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
             <div class="introtext">
@@ -38,7 +48,7 @@
         <h1>ABOUT</h1>
         <div class="about-content">
             <div class="about-img">
-                <img src="assets/footerPic1.svg">
+                <img class="about-img" src="assets/footerPic1.svg">
             </div>
             <div class="aboutText">
                 <p>Have you ever seen a beach with black sand? Because of constant volcanic activity, you'll find white
@@ -57,4 +67,17 @@
             </div>
         </div>
     </div>
+    <script>
+        function hideMenu() {
+            var x = document.getElementById("mobile-menu");
+            x.style.display = "none";
+        }
+
+        function showMenu() {
+            var x = document.getElementById("mobile-menu");
+            x.style.display = "block";
+        }
+    </script>
 </body>
+
+</html>
